@@ -1,0 +1,31 @@
+.TossCoinContainer {
+  border: 2px solid red;
+  height: 80vh;
+}
+.TossCoinContainer-image {
+  /* height: 20%; */
+}
+.TossCoinContainer-image img {
+  width: 10%;
+  height: auto;
+}
+.TossCoinContainer-btn {
+  margin: 10px;
+  height: 5vh;
+}
+.TossCoinContainer-btn button {
+  width: 10%;
+  height: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(98, 98, 170);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+}
+.TossCoinContainer-btn button:hover {
+  cursor: pointer;
+  background-color: rgb(74, 74, 138);
+}
